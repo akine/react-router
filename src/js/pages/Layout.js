@@ -4,7 +4,7 @@ import { Link, withRouter } from "react-router-dom"
 class Layout extends React.Component {
   navigate() {
     console.log(this.props.history);
-    this.props.history.push("/");
+    this.props.history.replace("/");
   }
   render() {
     return (
